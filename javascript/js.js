@@ -30,11 +30,11 @@ async function formSend(event) {
  });
  const result = await response.json();
 
- if (result.ok) {
-  log('Форма отправлена');
- } else {
-  alert('Ошибка');
- }
+//  if (result.ok) {
+//   log('Форма отправлена');
+//  } else {
+//   alert('Ошибка');
+//  }
 }
 
 const showMessage = () => {
