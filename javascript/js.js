@@ -31,7 +31,7 @@ async function formSend(event) {
  const result = await response.json();
 
  if (result.ok) {
-  alert('Форма отправлена');
+  log('Форма отправлена');
  } else {
   alert('Ошибка');
  }
